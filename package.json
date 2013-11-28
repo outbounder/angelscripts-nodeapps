@@ -1,0 +1,16 @@
+{
+  "name": "angelscripts-nodeapps",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node ./tests/"
+  },
+  "dependencies": {
+    "async": "0.2.9"
+  },
+  "devDependencies": {
+    "jasmine-node": "1.11.0",
+    "organic-angel": "0.0.1"
+  },
+  "license": "MIT"
+}
