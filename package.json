@@ -5,6 +5,10 @@
   "scripts": {
     "test": "jasmine-node ./tests/"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/outbounder/angelscripts-nodeapps.git"
+  },
   "dependencies": {
     "async": "0.2.9"
   },
