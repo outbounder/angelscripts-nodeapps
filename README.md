@@ -18,3 +18,15 @@ Removes `:target.out` and `:target.err` files
 * always redirects process' stdout and stderr to `:target.out` and respectively `:target.err`
 * always creates `:target.pid` file containg process' pid
 * status work on *nix operating systems only
+
+
+# Thanks to
+
+## organic-angel
+https://github.com/outbounder/organic-angel
+
+## async
+https://github.com/caolan/async
+
+## jasmine-node
+https://github.com/mhevery/jasmine-node
