@@ -1,6 +1,6 @@
 {
   "name": "angelscripts-nodeapps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "scripts": {
     "test": "jasmine-node ./tests/"
@@ -10,11 +10,12 @@
     "url" : "https://github.com/outbounder/angelscripts-nodeapps.git"
   },
   "dependencies": {
-    "async": "0.2.9"
+    "async": "0.2.9",
+    "angelabilities": "0.0.1"
   },
   "devDependencies": {
     "jasmine-node": "1.11.0",
-    "organic-angel": "0.2.0"
+    "organic-angel": "0.2.2"
   },
   "license": "MIT"
 }

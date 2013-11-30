@@ -93,7 +93,7 @@ var CustomNodeSpawner = {
 }
 
 module.exports = function(angel) {
-  angel.on("app :action :target", function(options, next){
-    CustomNodeSpawner[options.action](options, next)
+  angel.on("app :action :target", function(angel, next){
+    CustomNodeSpawner[angel.cmdData.action](angel.cmdData, next)
   })
 }
