@@ -1,13 +1,13 @@
 {
   "name": "angelscripts-nodeapps",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "scripts": {
     "test": "jasmine-node ./tests/"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/outbounder/angelscripts-nodeapps.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/outbounder/angelscripts-nodeapps.git"
   },
   "dependencies": {
     "async": "0.2.9",
