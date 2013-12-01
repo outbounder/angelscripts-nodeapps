@@ -96,4 +96,11 @@ module.exports = function(angel) {
   angel.on("app :action :target", function(angel, next){
     CustomNodeSpawner[angel.cmdData.action](angel.cmdData, next)
   })
+  .example([
+    "$ angel app start ./app.js",
+    "$ angel app stop ./app.js",
+    "$ angel app restart ./app.js",
+    "$ angel app status ./app.js"
+  ].join("\n"))
+  .description("Starts, stops, restarts or returns status for given nodejs app main script.")
 }
