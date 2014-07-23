@@ -1,22 +1,29 @@
 {
   "name": "angelscripts-nodeapps",
-  "version": "0.0.4",
+  "version": "0.0.5",
+  "description": "Daemonize applications with suppot for retrieving their status and to persist their output.",
   "main": "index.js",
+  "dependencies": {
+    "async": "~0.2.9"
+  },
+  "devDependencies": {
+    "organic-angel": "~0.2.10",
+    "jasmine-node": "~1.11.0"
+  },
+  "peerDependencies": {
+    "organic-angel": "~0.2.10"
+  },
   "scripts": {
-    "test": "jasmine-node ./tests/"
+    "test": "jasmine-node ./tests"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/outbounder/angelscripts-nodeapps.git"
+    "url": "git://github.com/outbounder/angelscripts-nodeapps.git"
   },
-  "dependencies": {
-    "async": "0.2.9",
-    "angelabilities": "0.0.1"
+  "author": "Boris Filipov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/outbounder/angelscripts-nodeapps/issues"
   },
-  "devDependencies": {
-    "jasmine-node": "1.11.0",
-    "organic-angel": "0.2.4",
-    "angelscripts": "0.0.4"
-  },
-  "license": "MIT"
+  "homepage": "https://github.com/outbounder/angelscripts-nodeapps"
 }

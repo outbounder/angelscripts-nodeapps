@@ -1,6 +1,5 @@
-# angelscripts nodeapps
+# angelscripts nodeapps v0.0.5
 
-## app
 Daemonize applications with suppot for retrieving their status and to persist their output.
 
     $ angel app :action(start|stop|status|restart) :target
