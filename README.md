@@ -1,4 +1,4 @@
-# angelscripts nodeapps v0.0.5
+# angelscripts nodeapps v0.0.x
 
 Daemonize applications with suppot for retrieving their status and to persist their output.
 

@@ -1,6 +1,6 @@
 {
   "name": "angelscripts-nodeapps",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Daemonize applications with suppot for retrieving their status and to persist their output.",
   "main": "index.js",
   "dependencies": {
@@ -11,7 +11,7 @@
     "jasmine-node": "~1.11.0"
   },
   "peerDependencies": {
-    "organic-angel": "~0.2.10"
+    "organic-angel": "~0.2.x"
   },
   "scripts": {
     "test": "jasmine-node ./tests"
